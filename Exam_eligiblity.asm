@@ -1,3 +1,20 @@
+; Question:
+
+; Lab Task 1: 
+; Write an assembly program to determine eligibility for admission to a professional course based on the following criteria: 
+; Eligibility Criteria : Marks in Maths >=7
+; Marks in Phy >=5 
+; Total in Maths and Physics >=12
+
+; Input:
+;  Input the marks obtained in Physics: 6
+;  Input the marks obtained in Mathematics :5
+
+; Output1 :
+; Total marks of Maths and Physics : 11
+; The candidate is not eligible.
+
+
 .model small          ; Defines the memory model as 'small' for the program.
 .stack 100h           ; Allocates 256 bytes for the stack.
 
